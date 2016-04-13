@@ -54,7 +54,7 @@ my.ui <- shinyUI(navbarPage("International student",
 my.server <- shinyServer(function(input, output){
   piedata <- reactive({
     a <- subset(data, Year %in% input$year)
-    a<droplevels(a)
+    a <- droplevels(a)
     return(a)
   })
   
