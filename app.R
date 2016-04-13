@@ -7,8 +7,7 @@
 library("shiny")
 
 #DATA STEPS
-setwd("/Users/susannah/Documents/Data_Visualization")
-data <- read.csv("data.csv")
+data <- read.csv("https://raw.githubusercontent.com/subartle/hello-world/master/data.csv")
 
 #Define the overall UI
 #fluid page divides the page into columns and rows
